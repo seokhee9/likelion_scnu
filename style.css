@@ -52,3 +52,7 @@ footer {
     font-size: 0.8rem;
     color: #888;
 }
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
