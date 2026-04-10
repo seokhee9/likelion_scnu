@@ -1,0 +1,54 @@
+*멋쟁이사자처럼 순천대학교 이석희*
+body {
+    margin: 0;
+    padding: 40px 0;
+    background-color: #fcfcfc;
+    color: #333;
+    
+    /* 화면 중앙 정렬을 위한 Flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-card {
+    width: 320px;
+    padding: 25px;            
+    margin-bottom: 40px;      
+    background: white;
+    border: 1px solid #eee;  
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.profile-card img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 2px solid #eee;
+}
+
+/* 상세 정보 텍스트 */
+.info-content {
+    max-width: 450px;
+    width: 90%;
+}
+
+.info-content h3 {
+    font-size: 1.1rem;
+    color: #ff6b00;
+    margin-bottom: 8px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.8rem;
+    color: #888;
+}
